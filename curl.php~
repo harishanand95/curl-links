@@ -1,0 +1,8 @@
+require 'Curl.php';
+
+use \Curl\Curl;
+
+
+$curl = new Curl();
+$curl->setOpt(CURLOPT_ENCODING , 'gzip');
+$curl->download('https://www.example.com/image.png', '/tmp/myimage.png');
