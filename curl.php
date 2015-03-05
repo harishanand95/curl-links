@@ -47,4 +47,6 @@
 			fclose($fp);
 		}
 	}
+	if($num === 0)
+		echo 'Specific link was not found!';
 ?>
