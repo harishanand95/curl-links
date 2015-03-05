@@ -8,6 +8,6 @@ Documentation for running this php script.
 Credits to the guys who wrote simplehtmldom. Techinique used to parse the html than a regex is done by S.C. Chen (me578022@gmail.com) found on http://simplehtmldom.sourceforge.net/
 
 
-Currently the URL is set to http://cs75.tv/2012/summer/
+Change the URL in curl.php
 
-and the files to download is set to  .mp4 
+and the default files to download is set to  .mp4 
